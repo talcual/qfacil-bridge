@@ -1,2 +1,2 @@
-
-export const FIXED_JWT = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXJ2aWNlIjoiYnJpZGdlLXF1ZWZhY2lsIiwicm9sZSI6InN5c3RlbSIsIm9yaWdpbiI6InN1cGFiYXNlIn0.5ZRG1nWryvyP6aZZ75-voCG-egmU58ngWk_1kObGyx4';
+    
+export const FIXED_JWT = process.env.FIX_TOKEN || '';
